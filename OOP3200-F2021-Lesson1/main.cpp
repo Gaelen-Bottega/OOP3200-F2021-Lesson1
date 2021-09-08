@@ -1,9 +1,12 @@
 
 #include <iostream>
+#include "Welcome.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Welcome welcome;
+
+    welcome.Greeting();
 }
 
 
